@@ -1,19 +1,19 @@
-# Crypto Landing Page
+# Design Landing Page
 
 ![name](https://img.shields.io/badge/Khurram-Iqbal-blue)
 
 ![course](https://img.shields.io/badge/-full--stack--js--bootcamp-red)
-![html-css](https://img.shields.io/badge/HTML%20%2F%20CSS-Project--5-green)
+![html-css](https://img.shields.io/badge/HTML%20%2F%20CSS-Project--8-green)
 
-![time](https://img.shields.io/badge/time--to--complete-2--hrs--approx.-yellowgreen)
+![time](https://img.shields.io/badge/time--to--complete-6--hrs--approx.-yellowgreen)
 
-## :link: [See it live](https://fullstack-js-bc-project-05.netlify.app/)
+## :link: [See it live](https://fullstack-js-bc-project-08.netlify.app/)
 
 
 ## :clipboard: Learning Outcomes 
 
-- Use of background image with overlay
-- Use of pseudo-classes and psuedo-elements together
+- Learnt the positioning of background svg
+- Learnt the use `linear-gradient` background for HTML `buttons`
 
 ## :camera: Screenshot
 
