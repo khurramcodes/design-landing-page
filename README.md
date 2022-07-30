@@ -5,7 +5,7 @@
 ![course](https://img.shields.io/badge/-full--stack--js--bootcamp-red)
 ![html-css](https://img.shields.io/badge/HTML%20%2F%20CSS-Project--8-green)
 
-![time](https://img.shields.io/badge/time--to--complete-6--hrs--approx.-yellowgreen)
+![time](https://img.shields.io/badge/time--to--complete-4--hrs--approx.-yellowgreen)
 
 ## :link: [See it live](https://fullstack-js-bc-project-08.netlify.app/)
 
