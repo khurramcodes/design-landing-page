@@ -1,3 +1,5 @@
+/* Base Styles */
+
 *{
     margin: 0;
     padding: 0;
@@ -13,9 +15,11 @@ body{
 }
 
 .main-div{
-    width: 1280px;
+    max-width: 1280px;
     margin: auto;
 }
+
+/* Navigation */
 
 nav{
     display: flex;
@@ -45,6 +49,14 @@ nav img[alt="logo"]{
     font-size: 11px;
     padding: 3px 12px;
     border-radius: 15px;
+}
+
+.btn-mobileNav{
+    display: none;
+    font-size: 35px;
+    border: 2px solid #fff;
+    padding: 5px 10px;
+    border-radius: 10px;
 }
 
 /* Intro Section */
@@ -87,7 +99,7 @@ nav img[alt="logo"]{
 }
 
 .imgs-div img[alt="intro-img"]{
-    width: 800px;
+    max-width: 800px;
     height: 640px;
     position: absolute;
     right: 8%;
@@ -104,4 +116,109 @@ nav img[alt="logo"]{
     position: absolute;
     bottom: 22%;
     left: 44%;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1280px) {
+    body{
+        background-position: right top;
+    }
+
+    .main-div{
+        max-width: 960px;
+    }
+
+    .left-section{
+        width: 50%;
+        position: absolute;
+        left: 6%;
+        top: 40%;
+    }
+
+    .left-section h4 {
+        font-size: 14px;
+    }
+
+    .imgs-div img[alt="intro-img"]{
+        max-width: 600px;
+        height: 500px;
+        top: 22%;
+    }
+
+    .vector-img{
+        position: absolute;
+        bottom: 20%;
+        left: 10%;
+    }
+    
+    .vector-dot{
+        position: absolute;
+        bottom: 28%;
+        left: 16%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .main-div{
+        width: 90%;
+    }
+    
+    .intro-section{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+    }
+    
+    .left-section{
+        width: 80%;
+        position: initial;
+        transform: translateY(0);
+        margin: auto;
+    }
+
+    .left-section h4{
+        width: 100%;
+    }
+
+    .imgs-div{
+        width: 100%;
+    }
+
+    .imgs-div img[alt="intro-img"] {
+        position: initial;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .vector-img{
+        /* display: none; */
+        position: absolute;
+        bottom: 15%;
+        left: 80%;
+    }
+    
+    .vector-dot{
+        /* display: none; */
+        position: absolute;
+        bottom: 23%;
+        left: 88%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    nav{
+        height: 10vh;
+        margin-bottom: 50px;
+    }
+    .nav-items, .signin-btn{
+        display: none;
+    }
+
+    .btn-mobileNav{
+        display: block;
+    }
 }
