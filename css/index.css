@@ -195,14 +195,12 @@ nav img[alt="logo"]{
     }
 
     .vector-img{
-        /* display: none; */
         position: absolute;
         bottom: 15%;
         left: 80%;
     }
     
     .vector-dot{
-        /* display: none; */
         position: absolute;
         bottom: 23%;
         left: 88%;
